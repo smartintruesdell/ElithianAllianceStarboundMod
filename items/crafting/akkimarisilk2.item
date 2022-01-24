@@ -4,8 +4,8 @@
   "rarity": "Uncommon",
   "category": "craftingMaterial",
   "inventoryIcon": "akkimarisilk2.png",
-  "description": "A fine strand of silk from an Akkimari silk gland.",
-  "shortdescription": "Fine Akkimari Silk",
+  "description": "A strand of silk from an Akkimari silk gland.",
+  "shortdescription": "Akkimari Silk",
   "itemTags": [
     "reagent"
   ]
