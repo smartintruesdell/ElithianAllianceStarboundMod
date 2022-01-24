@@ -2,13 +2,13 @@
   "kind" : "akkimari",
 
   "charCreationTooltip" : {
-      "title" : "Akkimari",
-      "subTitle" : "Spacefaring scavengers",
-      "description" : "The Akkimari are a broken race, their society still recovering from the loss of the AI that ruled them. Now, many Akkimari roam the galaxy as scavengers and bounty hunters, searching for their AI and riches both."
+    "title" : "Akkimari",
+    "subTitle" : "Spacefaring scavengers",
+    "description" : "The Akkimari are a broken race, their society still recovering from the loss of the AI that ruled them. Now, many Akkimari roam the galaxy as scavengers and bounty hunters, searching for their AI and riches both."
   },
 
   "statusEffects" : [ "akkimaribloodfrenzy" ],
-  
+
   "playerSpecies" : true,
   "humanoidConfig" : "/species/types/thea-akkimaroid.config",
   "nameGen" : [ "/species/akkimarinamegen.config:names", "/species/akkimarinamegen.config:names" ],
@@ -18,191 +18,192 @@
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=AFFF72FF?replace=31a6ffFF=00FF21FF",
   "defaultBlueprints" : {
     "tier1" : [
-	
-// Empty Hands
+
+      // Empty Hands
       { "item" : "akkimariinventor" },
       { "item" : "flagakkimari" },
-	  { "item" : "akkimarisilk" },
-	  { "item" : "akkimarimanipulatorskin" },
-	  
-// Akkimari Crafting 1
-	  { "item" : "akkimari-tier1chest" },
-	  { "item" : "akkimari-tier1head" },
-	  { "item" : "akkimari-tier1legs" },
-	  { "item" : "akkimari-tier2chest" },
-	  { "item" : "akkimari-tier2head" },
-	  { "item" : "akkimari-tier2legs" },
-	  { "item" : "akkimari-throwingknife" },
-	  { "item" : "akkimarishield" },
-	  { "item" : "akkimari-tier1broadsword" },
-	  { "item" : "akkimari-tier1shortsword" },
-	  { "item" : "akkimari-tier2dagger" },
-	  { "item" : "akkimari-tier2spear" },
-	  { "item" : "akkimari-bow" },
-	  { "item" : "akkimari-nailgun" },
-	  { "item" : "akkimari-nailrifle" },
-	  { "item" : "akkimari-nailshotgun" },
-	  
-	// Blocks & Platforms
-	  { "item" : "akkimaribars" },
-	  { "item" : "akkimaribeam" },
-	  { "item" : "akkimaribeamconnector" },
-	  { "item" : "akkimaribeamvert" },
-	  { "item" : "akkimarifoundation" },
-	  { "item" : "akkimariglass" },
-	  { "item" : "akkimarigroundpanel" },
-	  { "item" : "akkimarihullpanel" },
-	  { "item" : "akkimariplating" },
-	  { "item" : "akkimariscrap" },
-	  { "item" : "akkimariscrapplating" },
-	  { "item" : "akkimariplatform" },
-	  
-	// Objects
-	  { "item" : "akkimarichest" },
-	  { "item" : "akkimaricrate" },
-	  { "item" : "akkimarismallchest" },
-	  { "item" : "akkimarivaashbarrel" },
-	  { "item" : "akkimariantenna" },
-	  { "item" : "akkimaribackgrounddoor" },
-	  { "item" : "akkimaribanner" },
-	  { "item" : "akkimaribanner2" },
-	  { "item" : "akkimaribeacon" },
-	  { "item" : "akkimaribountyhologram" },
-	  { "item" : "akkimarihangingstorage" },
-	  { "item" : "akkimarimountedskeleton" },
-	  { "item" : "akkimarimountedskull" },
-	  { "item" : "akkimaripowercore" },
-	  { "item" : "akkimarirailing" },
-	  { "item" : "akkimariskull" },
-	  { "item" : "akkimariskulls" },
-	  { "item" : "akkimarivent" },
-	  { "item" : "akkimariblastdoor" },
-	  { "item" : "akkimarifabricdoor" },
-	  { "item" : "akkimarifabricdoor2" },
-	  { "item" : "akkimarislidinghatch" },
-	  { "item" : "akkimarispacedoor" },
-	  { "item" : "akkimaribed" },
-	  { "item" : "akkimaribench" },
-	  { "item" : "akkimarichair" },
-	  { "item" : "akkimarihammock" },
-	  { "item" : "akkimarihammock2" },
-	  { "item" : "akkimaripiratecaptainchair" },
-	  { "item" : "akkimariscrapbed" },
-	  { "item" : "akkimariscraptable" },
-	  { "item" : "akkimarismalltable" },
-	  { "item" : "akkimaritable" },
-	  { "item" : "akkimarilight" },
-	  { "item" : "akkimarilightstrip" },
-	  { "item" : "akkimaristandingtorch" },
-	  { "item" : "akkimaributton" },
-	  { "item" : "akkimariconsole" },
-	  { "item" : "akkimarigenerator" },
-	  { "item" : "akkimarilargepressureplate" },
-	  { "item" : "akkimaripressureplate" },
-	  { "item" : "akkimarisecuritycamera" },
-	  { "item" : "akkimarismallbutton" },
-	  { "item" : "akkimarismallconsole" },
-	  { "item" : "akkimariwallswitch" },
-	  
-// Akkimari Crafting 2
-	  { "item" : "akkimari-tier3chest" },
-	  { "item" : "akkimari-tier3head" },
-	  { "item" : "akkimari-tier3legs" },
-	  { "item" : "akkimari-tier4chest" },
-	  { "item" : "akkimari-tier4head" },
-	  { "item" : "akkimari-tier4legs" },
-	  { "item" : "akkimari-nailbomb" },
-	  { "item" : "akkimari-chainsaw" },
-	  { "item" : "akkimari-tier3axe" },
-	  { "item" : "akkimari-tier3hammer" },
-	  { "item" : "akkimari-tier4broadsword" },
-	  { "item" : "akkimari-tier4shortsword" },
-	  { "item" : "akkimari-nailsniper" },
-	  { "item" : "akkimari-spikecannon" },
-	  { "item" : "akkimari-strafegun" },
-	  
-// Akkimari Crafting 3
-	  { "item" : "akkimari-vaashbomb" },
-	  { "item" : "akkimari-tier5dagger" },
-	  { "item" : "akkimari-tier5spear" },
-	  { "item" : "akkimari-tier6axe" },
-	  { "item" : "akkimari-tier6hammer" },
-	  { "item" : "akkimari-driftrifle" },
-	  { "item" : "akkimari-flamethrower" },
-	  { "item" : "akkimari-trackrifle" },
-	  { "item" : "akkimarigrapplinghook" },
-	  { "item" : "akkimarirailhook" },
-	  
-	//Accelerator
-	  { "item" : "akkimari-tier5achest" },
-	  { "item" : "akkimari-tier5ahead" },
-	  { "item" : "akkimari-tier5alegs" },
-	  { "item" : "akkimari-tier6achest" },
-	  { "item" : "akkimari-tier6ahead" },
-	  { "item" : "akkimari-tier6alegs" },
-	//Manipulator
-	  { "item" : "akkimari-tier5mchest" },
-	  { "item" : "akkimari-tier5mhead" },
-	  { "item" : "akkimari-tier5mlegs" },
-	  { "item" : "akkimari-tier6mchest" },
-	  { "item" : "akkimari-tier6mhead" },
-	  { "item" : "akkimari-tier6mlegs" },
-	//Seperator
-	  { "item" : "akkimari-tier5schest" },
-	  { "item" : "akkimari-tier5shead" },
-	  { "item" : "akkimari-tier5slegs" },
-	  { "item" : "akkimari-tier6schest" },
-	  { "item" : "akkimari-tier6shead" },
-	  { "item" : "akkimari-tier6slegs" },
-	  
-// Akkimari Furnace 1
-	//Bars
-		{ "item" : "akkimarimetal" },
-		{ "item" : "akkimarimetaltier2" },
-	//Ingredients
-		{ "item" : "akkimaricircuitry" },
-		{ "item" : "connectorstrip" },
-		{ "item" : "akkimariglassitem" },
-		{ "item" : "akkimaribladeparts" },
-		{ "item" : "akkimarigunparts" },
-		{ "item" : "akkimariupgradekit2" },
-	  
-// Akkimari Furnace 2
-	//Bars
-		{ "item" : "akkimarimetaltier3" },
-		{ "item" : "akkimarimetaltier4" },
-	//Ingredients
-		{ "item" : "akkimariprocessor" },
-		{ "item" : "akkimariupgradekit3" },
-		{ "item" : "akkimariupgradekit4" },
-		
-// Akkimari Furnace 3
-	//Bars
-		{ "item" : "akkimarimetaltier5" },
-		{ "item" : "akkimarimetaltier6" },
-	//Ingredients
-		{ "item" : "akkimaricoreenergetic" },
-		{ "item" : "akkimaricorepowerful" },
-		{ "item" : "akkimaricorevigorous" },
-		{ "item" : "akkimariupgradekit5" },
-		{ "item" : "akkimariupgradekit6" },
-		
-// Akkimari Inventor 1
-	//Crafting Tables
-		{ "item" : "akkimaricrafting" },
-		{ "item" : "akkimarifurnace" },
-		{ "item" : "akkimariscavengertable" },
-		{ "item" : "akkimaribreathprotectionback" },
-		
-// Akkimari Inventor 2
-	//Crafting Tables
-		{ "item" : "akkimariweaponimprovement" },
-		{ "item" : "akkimariradiationprotectionback" },
-		
-// Akkimari Inventor 3
-	//Crafting Tables
-		{ "item" : "akkimaricoldprotectionback" },
-		{ "item" : "akkimariheatprotectionback" }
+	    { "item" : "akkimarisilk" },
+      { "item" : "akkimarisilk2" },
+	    { "item" : "akkimarimanipulatorskin" },
+
+      // Akkimari Crafting 1
+	    { "item" : "akkimari-tier1chest" },
+	    { "item" : "akkimari-tier1head" },
+	    { "item" : "akkimari-tier1legs" },
+	    { "item" : "akkimari-tier2chest" },
+	    { "item" : "akkimari-tier2head" },
+	    { "item" : "akkimari-tier2legs" },
+	    { "item" : "akkimari-throwingknife" },
+	    { "item" : "akkimarishield" },
+	    { "item" : "akkimari-tier1broadsword" },
+	    { "item" : "akkimari-tier1shortsword" },
+	    { "item" : "akkimari-tier2dagger" },
+	    { "item" : "akkimari-tier2spear" },
+	    { "item" : "akkimari-bow" },
+	    { "item" : "akkimari-nailgun" },
+	    { "item" : "akkimari-nailrifle" },
+	    { "item" : "akkimari-nailshotgun" },
+
+	    // Blocks & Platforms
+	    { "item" : "akkimaribars" },
+	    { "item" : "akkimaribeam" },
+	    { "item" : "akkimaribeamconnector" },
+	    { "item" : "akkimaribeamvert" },
+	    { "item" : "akkimarifoundation" },
+	    { "item" : "akkimariglass" },
+	    { "item" : "akkimarigroundpanel" },
+	    { "item" : "akkimarihullpanel" },
+	    { "item" : "akkimariplating" },
+	    { "item" : "akkimariscrap" },
+	    { "item" : "akkimariscrapplating" },
+	    { "item" : "akkimariplatform" },
+
+	    // Objects
+	    { "item" : "akkimarichest" },
+	    { "item" : "akkimaricrate" },
+	    { "item" : "akkimarismallchest" },
+	    { "item" : "akkimarivaashbarrel" },
+	    { "item" : "akkimariantenna" },
+	    { "item" : "akkimaribackgrounddoor" },
+	    { "item" : "akkimaribanner" },
+	    { "item" : "akkimaribanner2" },
+	    { "item" : "akkimaribeacon" },
+	    { "item" : "akkimaribountyhologram" },
+	    { "item" : "akkimarihangingstorage" },
+	    { "item" : "akkimarimountedskeleton" },
+	    { "item" : "akkimarimountedskull" },
+	    { "item" : "akkimaripowercore" },
+	    { "item" : "akkimarirailing" },
+	    { "item" : "akkimariskull" },
+	    { "item" : "akkimariskulls" },
+	    { "item" : "akkimarivent" },
+	    { "item" : "akkimariblastdoor" },
+	    { "item" : "akkimarifabricdoor" },
+	    { "item" : "akkimarifabricdoor2" },
+	    { "item" : "akkimarislidinghatch" },
+	    { "item" : "akkimarispacedoor" },
+	    { "item" : "akkimaribed" },
+	    { "item" : "akkimaribench" },
+	    { "item" : "akkimarichair" },
+	    { "item" : "akkimarihammock" },
+	    { "item" : "akkimarihammock2" },
+	    { "item" : "akkimaripiratecaptainchair" },
+	    { "item" : "akkimariscrapbed" },
+	    { "item" : "akkimariscraptable" },
+	    { "item" : "akkimarismalltable" },
+	    { "item" : "akkimaritable" },
+	    { "item" : "akkimarilight" },
+	    { "item" : "akkimarilightstrip" },
+	    { "item" : "akkimaristandingtorch" },
+	    { "item" : "akkimaributton" },
+	    { "item" : "akkimariconsole" },
+	    { "item" : "akkimarigenerator" },
+	    { "item" : "akkimarilargepressureplate" },
+	    { "item" : "akkimaripressureplate" },
+	    { "item" : "akkimarisecuritycamera" },
+	    { "item" : "akkimarismallbutton" },
+	    { "item" : "akkimarismallconsole" },
+	    { "item" : "akkimariwallswitch" },
+
+      // Akkimari Crafting 2
+	    { "item" : "akkimari-tier3chest" },
+	    { "item" : "akkimari-tier3head" },
+	    { "item" : "akkimari-tier3legs" },
+	    { "item" : "akkimari-tier4chest" },
+	    { "item" : "akkimari-tier4head" },
+	    { "item" : "akkimari-tier4legs" },
+	    { "item" : "akkimari-nailbomb" },
+	    { "item" : "akkimari-chainsaw" },
+	    { "item" : "akkimari-tier3axe" },
+	    { "item" : "akkimari-tier3hammer" },
+	    { "item" : "akkimari-tier4broadsword" },
+	    { "item" : "akkimari-tier4shortsword" },
+	    { "item" : "akkimari-nailsniper" },
+	    { "item" : "akkimari-spikecannon" },
+	    { "item" : "akkimari-strafegun" },
+
+      // Akkimari Crafting 3
+	    { "item" : "akkimari-vaashbomb" },
+	    { "item" : "akkimari-tier5dagger" },
+	    { "item" : "akkimari-tier5spear" },
+	    { "item" : "akkimari-tier6axe" },
+	    { "item" : "akkimari-tier6hammer" },
+	    { "item" : "akkimari-driftrifle" },
+	    { "item" : "akkimari-flamethrower" },
+	    { "item" : "akkimari-trackrifle" },
+	    { "item" : "akkimarigrapplinghook" },
+	    { "item" : "akkimarirailhook" },
+
+	    //Accelerator
+	    { "item" : "akkimari-tier5achest" },
+	    { "item" : "akkimari-tier5ahead" },
+	    { "item" : "akkimari-tier5alegs" },
+	    { "item" : "akkimari-tier6achest" },
+	    { "item" : "akkimari-tier6ahead" },
+	    { "item" : "akkimari-tier6alegs" },
+	    //Manipulator
+	    { "item" : "akkimari-tier5mchest" },
+	    { "item" : "akkimari-tier5mhead" },
+	    { "item" : "akkimari-tier5mlegs" },
+	    { "item" : "akkimari-tier6mchest" },
+	    { "item" : "akkimari-tier6mhead" },
+	    { "item" : "akkimari-tier6mlegs" },
+	    //Seperator
+	    { "item" : "akkimari-tier5schest" },
+	    { "item" : "akkimari-tier5shead" },
+	    { "item" : "akkimari-tier5slegs" },
+	    { "item" : "akkimari-tier6schest" },
+	    { "item" : "akkimari-tier6shead" },
+	    { "item" : "akkimari-tier6slegs" },
+
+      // Akkimari Furnace 1
+	    //Bars
+		  { "item" : "akkimarimetal" },
+		  { "item" : "akkimarimetaltier2" },
+	    //Ingredients
+		  { "item" : "akkimaricircuitry" },
+		  { "item" : "connectorstrip" },
+		  { "item" : "akkimariglassitem" },
+		  { "item" : "akkimaribladeparts" },
+		  { "item" : "akkimarigunparts" },
+		  { "item" : "akkimariupgradekit2" },
+
+      // Akkimari Furnace 2
+	    //Bars
+		  { "item" : "akkimarimetaltier3" },
+		  { "item" : "akkimarimetaltier4" },
+	    //Ingredients
+		  { "item" : "akkimariprocessor" },
+		  { "item" : "akkimariupgradekit3" },
+		  { "item" : "akkimariupgradekit4" },
+
+      // Akkimari Furnace 3
+	    //Bars
+		  { "item" : "akkimarimetaltier5" },
+		  { "item" : "akkimarimetaltier6" },
+	    //Ingredients
+		  { "item" : "akkimaricoreenergetic" },
+		  { "item" : "akkimaricorepowerful" },
+		  { "item" : "akkimaricorevigorous" },
+		  { "item" : "akkimariupgradekit5" },
+		  { "item" : "akkimariupgradekit6" },
+
+      // Akkimari Inventor 1
+	    //Crafting Tables
+		  { "item" : "akkimaricrafting" },
+		  { "item" : "akkimarifurnace" },
+		  { "item" : "akkimariscavengertable" },
+		  { "item" : "akkimaribreathprotectionback" },
+
+      // Akkimari Inventor 2
+	    //Crafting Tables
+		  { "item" : "akkimariweaponimprovement" },
+		  { "item" : "akkimariradiationprotectionback" },
+
+      // Akkimari Inventor 3
+	    //Crafting Tables
+		  { "item" : "akkimaricoldprotectionback" },
+		  { "item" : "akkimariheatprotectionback" }
 
     ]
   },
@@ -212,53 +213,53 @@
   "hairColorAsBodySubColor" : true,
   "genders" : [
     {
-      "name" : "male",
-      "image" : "/interface/title/male.png",
-      "characterImage" : "/interface/title/akkimarimale.png",
+    "name" : "male",
+    "image" : "/interface/title/male.png",
+    "characterImage" : "/interface/title/akkimarimale.png",
 	  "hairGroup" : "hair",
-      "hair" : [ "0" ],
-      "shirt" : [ "akkimari-clerkchest", "akkimari-forgerchest", "akkimari-traderchest", "akkimari-weaverchest" ],
-      "pants" : [ "akkimari-clerklegs", "akkimari-forgerlegs", "akkimari-traderlegs", "akkimari-weaverlegs" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
-      "facialMaskGroup" : "ears",
-      "facialMask" : [ "0", "1", "2" ]
-    },
+    "hair" : [ "0" ],
+    "shirt" : [ "akkimari-clerkchest", "akkimari-forgerchest", "akkimari-traderchest", "akkimari-weaverchest" ],
+    "pants" : [ "akkimari-clerklegs", "akkimari-forgerlegs", "akkimari-traderlegs", "akkimari-weaverlegs" ],
+    "facialHairGroup" : "",
+    "facialHair" : [ ],
+    "facialMaskGroup" : "ears",
+    "facialMask" : [ "0", "1", "2" ]
+  },
     {
-      "name" : "female",
-      "image" : "/interface/title/female.png",
-      "characterImage" : "/interface/title/akkimarifemale.png",
+    "name" : "female",
+    "image" : "/interface/title/female.png",
+    "characterImage" : "/interface/title/akkimarifemale.png",
 	  "hairGroup" : "hair",
-      "hair" : [ "0" ],
-      "shirt" : [ "akkimari-clerkchest", "akkimari-forgerchest", "akkimari-traderchest", "akkimari-weaverchest" ],
-      "pants" : [ "akkimari-clerklegs", "akkimari-forgerlegs", "akkimari-traderlegs", "akkimari-weaverlegs" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
-      "facialMaskGroup" : "ears",
-      "facialMask" : [ "0", "1", "2" ]
-    }
+    "hair" : [ "0" ],
+    "shirt" : [ "akkimari-clerkchest", "akkimari-forgerchest", "akkimari-traderchest", "akkimari-weaverchest" ],
+    "pants" : [ "akkimari-clerklegs", "akkimari-forgerlegs", "akkimari-traderlegs", "akkimari-weaverlegs" ],
+    "facialHairGroup" : "",
+    "facialHair" : [ ],
+    "facialMaskGroup" : "ears",
+    "facialMask" : [ "0", "1", "2" ]
+  }
   ],
   "bodyColor" : [
- // { "42301C" : "DARKER", "785F40" : "DARK  ", "A2825C" : "NORMAL", "CCAA7F" : "LIGHT " }, // Template, Brown
-  
+    // { "42301C" : "DARKER", "785F40" : "DARK  ", "A2825C" : "NORMAL", "CCAA7F" : "LIGHT " }, // Template, Brown
+
     { "42301C" : "3D3022", "785F40" : "725F4A", "A2825C" : "998168", "CCAA7F" : "C3A98C" }, // Brown
-	{ "42301C" : "352F27", "785F40" : "665B51", "A2825C" : "897C6F", "CCAA7F" : "B0A293" }, // Faded Brown
-	{ "42301C" : "35322F", "785F40" : "66625D", "A2825C" : "8B8680", "CCAA7F" : "B3AEA8" }, // Grey Brown
-	{ "42301C" : "2D3136", "785F40" : "5A6068", "A2825C" : "7C848D", "CCAA7F" : "A3ABB6" }, // Faded Blue
-	{ "42301C" : "333333", "785F40" : "626262", "A2825C" : "878787", "CCAA7F" : "AFAFAF" }, // Grey
-	{ "42301C" : "283235", "785F40" : "525F65", "A2825C" : "718189", "CCAA7F" : "95A8B0" }, // Light Blue
-	{ "42301C" : "282D35", "785F40" : "525765", "A2825C" : "717789", "CCAA7F" : "959DB0" }, // Dark Blue
-	{ "42301C" : "3F2F22", "785F40" : "6C5A4B", "A2825C" : "8C7D6D", "CCAA7F" : "ACA095" }, // Light Brown
-	{ "42301C" : "433428", "785F40" : "736355", "A2825C" : "96887A", "CCAA7F" : "BAAFA5" }, // Lighter Brown
-	{ "42301C" : "352A28", "785F40" : "655352", "A2825C" : "887270", "CCAA7F" : "AF9795" }  // Faded Red
+	  { "42301C" : "352F27", "785F40" : "665B51", "A2825C" : "897C6F", "CCAA7F" : "B0A293" }, // Faded Brown
+	  { "42301C" : "35322F", "785F40" : "66625D", "A2825C" : "8B8680", "CCAA7F" : "B3AEA8" }, // Grey Brown
+	  { "42301C" : "2D3136", "785F40" : "5A6068", "A2825C" : "7C848D", "CCAA7F" : "A3ABB6" }, // Faded Blue
+	  { "42301C" : "333333", "785F40" : "626262", "A2825C" : "878787", "CCAA7F" : "AFAFAF" }, // Grey
+	  { "42301C" : "283235", "785F40" : "525F65", "A2825C" : "718189", "CCAA7F" : "95A8B0" }, // Light Blue
+	  { "42301C" : "282D35", "785F40" : "525765", "A2825C" : "717789", "CCAA7F" : "959DB0" }, // Dark Blue
+	  { "42301C" : "3F2F22", "785F40" : "6C5A4B", "A2825C" : "8C7D6D", "CCAA7F" : "ACA095" }, // Light Brown
+	  { "42301C" : "433428", "785F40" : "736355", "A2825C" : "96887A", "CCAA7F" : "BAAFA5" }, // Lighter Brown
+	  { "42301C" : "352A28", "785F40" : "655352", "A2825C" : "887270", "CCAA7F" : "AF9795" }  // Faded Red
   ],
   "undyColor" : [ "" ],
   "hairColor" : [
- // { "553428" : "DARKER", "A35638" : "DARK  ", "C97354" : "NORMAL", "EFA386" : "LIGHT " }, // Template, Reddish Orange
- 
-	{ "553428" : "706E6B", "A35638" : "958F89", "C97354" : "ADA7A1", "EFA386" : "CEC9C3" }, // Dirty White
-	{ "553428" : "847D72", "A35638" : "AD9882", "C97354" : "C3AD98", "EFA386" : "E0CEB9" }, // Beige
-	{ "553428" : "6D6A67", "A35638" : "8A837B", "C97354" : "9C958E", "EFA386" : "B7B1A9" }, // Dirty Grey
-	{ "553428" : "878787", "A35638" : "A5A5A5", "C97354" : "BBBBBB", "EFA386" : "DADADA" }  // White
+    // { "553428" : "DARKER", "A35638" : "DARK  ", "C97354" : "NORMAL", "EFA386" : "LIGHT " }, // Template, Reddish Orange
+
+	  { "553428" : "706E6B", "A35638" : "958F89", "C97354" : "ADA7A1", "EFA386" : "CEC9C3" }, // Dirty White
+	  { "553428" : "847D72", "A35638" : "AD9882", "C97354" : "C3AD98", "EFA386" : "E0CEB9" }, // Beige
+	  { "553428" : "6D6A67", "A35638" : "8A837B", "C97354" : "9C958E", "EFA386" : "B7B1A9" }, // Dirty Grey
+	  { "553428" : "878787", "A35638" : "A5A5A5", "C97354" : "BBBBBB", "EFA386" : "DADADA" }  // White
   ]
 }

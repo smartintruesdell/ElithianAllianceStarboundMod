@@ -1,0 +1,16 @@
+{
+  "input": [
+    {
+      "item": "ambrumfiber",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "akkimarisilk2",
+    "count": 1
+  },
+  "groups": [
+    "ingedients",
+    "all"
+  ]
+}

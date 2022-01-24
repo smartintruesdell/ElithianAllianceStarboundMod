@@ -1,0 +1,16 @@
+{
+  "input": [
+    {
+      "item": "plantfibre",
+      "count": 4
+    }
+  ],
+  "output": {
+    "item": "akkimarisilk",
+    "count": 1
+  },
+  "groups": [
+    "plain",
+    "all"
+  ]
+}
