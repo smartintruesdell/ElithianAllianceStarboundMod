@@ -1,9 +1,25 @@
 {
-  "input" : [
-    { "item" : "akkimarimetal", "count" : 2 },
-	{ "item" : "akkimarigunparts", "count" : 2 },
-    { "item" : "akkimarcircuitry", "count" : 1 }
+  "input": [
+    {
+      "item": "akkimarimetal",
+      "count": 2
+    },
+    {
+      "item": "akkimarigunparts",
+      "count": 2
+    },
+    {
+      "item": "akkimaricircuitry",
+      "count": 1
+    }
   ],
-  "output" : { "item" : "akkimari-nailgun", "count" : 1 },
-  "groups" : [ "akkimaricrafting", "weapons", "all" ]
+  "output": {
+    "item": "akkimari-nailgun",
+    "count": 1
+  },
+  "groups": [
+    "akkimaricrafting",
+    "weapons",
+    "all"
+  ]
 }
