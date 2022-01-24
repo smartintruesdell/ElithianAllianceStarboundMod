@@ -1,10 +1,22 @@
 {
-  "input" : [
-    { "item" : "akkimarimetaltier3", "count" : 2 },
-	{ "item" : "akkimaricircuitry", "count" : 1 },
-    { "item" : "akkimarisilk", "count" : 2 }
+  "input": [
+    {
+      "item": "akkimarimetaltier3",
+      "count": 1
+    },
+    {
+      "item": "akkimarisilk3",
+      "count": 1
+    }
   ],
-  "duration" : 5,
-  "output" : { "item" : "akkimari-tier3legs", "count" : 1 },
-  "groups" : [ "akkimaricrafting2", "armours", "all" ]
+  "duration": 5,
+  "output": {
+    "item": "akkimari-tier3legs",
+    "count": 1
+  },
+  "groups": [
+    "akkimaricrafting2",
+    "armours",
+    "all"
+  ]
 }
